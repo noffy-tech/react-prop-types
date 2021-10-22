@@ -19,11 +19,12 @@ function App() {
   }
   return (
     <MyComponent
-      string={name}
-      object={object}
-      array={array}
-      func={demo}
-      Component={component}
+      string={name} // String
+      object={object} // Object
+      boolean={true} // Boolean
+      array={array} // Array
+      func={demo} // Function
+      Component={component} //Component
     />
   );
 }
